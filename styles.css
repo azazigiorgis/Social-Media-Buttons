@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  font-family: 'Barlow', sans-serif;
+}
+
+.socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.socials .btn {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.socials .btn i {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 36px;
+}
+
+.socials p {
+  font-size: 22px;
+}
+
+.socials p span {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fbc531;
+}
+
+#facebook {
+  background: #3b5998;
+  color: white;
+}
+
+#facebook:hover {
+  background: white;
+  color: #3b5998;
+}
+
+#twitter {
+  background: #1da1f2;
+  color: white;
+}
+
+#twitter:hover {
+  background: white;
+  color: #1da1f2;
+}
+
+#instagram {
+  background: #833ab4;
+  color: white;
+}
+
+#instagram:hover {
+  background: white;
+  color: #833ab4;
+}
+
+#linkedin {
+  background: #0077b5;
+  color: white;
+}
+
+#linkedin:hover {
+  background: white;
+  color: #0077b5;
+}
+
+#youtube {
+  background: #ff0000;
+  color: white;
+}
+
+#youtube:hover {
+  background: white;
+  color: #ff0000;
+}
+/*# sourceMappingURL=styles.css.map */

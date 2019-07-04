@@ -1,0 +1,97 @@
+//Colors 
+$grey: #7f8fa6;
+$fb-blue: #3b5998;
+$tw-blue : #1da1f2;
+$ln-blue: #0077b5;
+$purple: #833ab4;
+$red: #ff0000;
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  font-family: 'Barlow', sans-serif;
+
+
+}
+.socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  .btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    overflow: hidden;
+    position: relative; 
+    i {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;  
+    }
+  }
+  p {
+    font-size: 22px;
+    span {
+      font-size: 26px;
+      font-weight: 600;
+      color: #fbc531;
+    }
+  }
+}
+
+
+#facebook {
+	background: $fb-blue;
+  color: white;
+  &:hover {
+    background: white;
+    color: $fb-blue;
+  }
+}
+
+#twitter {
+  background: $tw-blue;
+  color: white;
+  &:hover {
+    background: white;
+    color: $tw-blue;
+  }
+}
+
+
+#instagram {
+  background: $purple;
+  color: white;
+  &:hover {
+    background: white;
+    color: $purple;
+  }
+}
+
+
+#linkedin{
+  background: $ln-blue;
+  color: white;
+  &:hover {
+    background: white;
+    color: $ln-blue;
+  }
+}
+
+#youtube {
+  background: $red;
+  color: white;
+  &:hover {
+    background: white;
+    color: $red;
+  }
+}
